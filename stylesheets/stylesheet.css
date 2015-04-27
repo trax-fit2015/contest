@@ -234,7 +234,8 @@ hr {
 }
 
 table {
-  border: 1px solid #373737;
+/*  border: 1px solid #373737; */
+  border: 1px solid #FFFFFF;
   margin-bottom: 20px;
   text-align: left;
  }
