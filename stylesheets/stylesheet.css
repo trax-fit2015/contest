@@ -79,10 +79,13 @@ h2 {
 
 h3 {
   font-size: 24px;
+  border-top : #111 2px solid;
+  border-bottom : #111 2px solid;
 }
 
 h4 {
   font-size: 21px;
+/*  border-left: #111 12px solid; */
 }
 
 h5 {
