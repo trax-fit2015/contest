@@ -21,7 +21,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, video, sidebar {
   margin: 0;
   padding: 0;
   border: 0;
@@ -31,7 +31,7 @@ time, mark, audio, video {
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, nav, section, sidebar {
   display: block;
 }
 
@@ -389,11 +389,23 @@ Full-Width Styles
 
 #main_content_wrap {
   background: #f2f2f2;
-  border-top: 1px solid #111;
+/*  border-top: 1px solid #111; */
   border-bottom: 1px solid #111;
 }
 
 #main_content {
+  padding-top: 40px;
+}
+
+#sidebar_wrap {
+  width:200px;
+  float:left;
+  position:fixed; 
+  background: #f2f2f2;
+  border-right: 1px solid #111;
+}
+
+#sidebar {
   padding-top: 40px;
 }
 
