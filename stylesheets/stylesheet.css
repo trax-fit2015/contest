@@ -395,12 +395,13 @@ Full-Width Styles
 
 #main_content {
   padding-top: 40px;
+  padding-left: 200px;
 }
 
 #sidebar_wrap {
   width:200px;
   float:left;
-  position:fixed; 
+/*  position:fixed; */
   background: #f2f2f2;
   border-right: 1px solid #111;
 }
